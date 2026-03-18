@@ -10,7 +10,7 @@ export default function Hero() {
     >
 
  <img
-  src="/favicon.jpg"
+  src="/favicon.png"
   alt="logo"
   className="w-24 h-24 rounded-full object-cover border border-gray-500"
 />
