@@ -16,11 +16,12 @@ export default function ScrollHint() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // hide when reached bottom
-  if (atBottom) return null;
-
   return (
-    <div className="fixed bottom-6 w-full text-center text-gray-500 text-sm animate-bounce pointer-events-none">
+    <div
+      className={`fixed bottom-6 w-full text-center text-gray-500 text-sm pointer-events-none 
+      transition-opacity duration-300 
+      ${atBottom ? "opacity-0" : "opacity-100 animate-bounce"}`}
+    >
       scroll ↓
     </div>
   );
