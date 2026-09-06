@@ -24,17 +24,44 @@ export default function Contact() {
 
           <p>
             <span className="text-gray-500">Email —</span><br />
-            Amrit1984o@gmail.com {/* <-- replace */}
+            <a
+              href="mailto:Amrit1984o@gmail.com"
+              className="hover:text-gray-300 hover:underline transition"
+            >
+              Amrit1984o@gmail.com
+            </a>
           </p>
 
           <p>
             <span className="text-gray-500">GitHub —</span><br />
-            https://github.com/lazzy-amrit {/* <-- replace */}
+            <a
+              href="https://github.com/lazzy-amrit"
+              target="_blank"
+              className="hover:text-gray-300 hover:underline transition"
+            >
+              github.com/lazzy-amrit
+            </a>
           </p>
 
           <p>
-            <span className="text-gray-500">Discord server link —</span><br />
-            https://discord.gg/KTTf8tdk {/* <-- replace */}
+            <span className="text-gray-500">Discord —</span><br />
+            <a
+              href="https://discord.com/users/tsun_106"
+              target="_blank"
+              className="hover:text-gray-300 hover:underline transition"
+            >
+              tsun_106
+            </a>
+          </p>
+
+          <p>
+            <span className="text-gray-500">Minecraft Server —</span><br />
+            quietbyte.mcsh.io
+          </p>
+
+          <p>
+            <span className="text-gray-500">One Block Server —</span><br />
+            mc.amritvex.site
           </p>
 
         </div>

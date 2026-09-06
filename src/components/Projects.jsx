@@ -46,28 +46,115 @@ export default function Projects() {
 
         </div>
 
-        {/* PROJECT 2 (placeholder for future) */}
+        {/* PROJECT 2 - Mukio */}
         <div className={`p-6 border border-gray-800 rounded-xl hover:border-gray-500 transition ${
           visible ? "show-anim" : "hidden-anim"
         }`}>
 
           <h3 className="text-xl font-semibold mb-3">
-            Backend API System
+            Mukio
           </h3>
 
           <p className="text-gray-400 text-sm mb-4">
-            Building scalable APIs with FastAPI, handling data and backend logic efficiently.
+            A tiny tty-based music player for Linux. Search, stream, and queue tracks from
+            YouTube or Spotify links straight from the terminal, with a live audio visualizer
+            and Discord Rich Presence built in.
           </p>
 
           <p className="text-gray-500 text-sm mb-6">
-            Python • FastAPI
+            Python • Linux
           </p>
 
           <a
-            href="#"
-            className="inline-block px-4 py-2 border border-gray-600 rounded-lg text-sm opacity-50 cursor-not-allowed"
+            href="https://github.com/lazzy-amrit/mukio"
+            target="_blank"
+            className="inline-block px-4 py-2 border border-gray-600 rounded-lg text-sm hover:bg-white hover:text-black transition"
           >
-            Coming Soon
+            View Project →
+          </a>
+
+        </div>
+
+        {/* PROJECT 3 - Notely */}
+        <div className={`p-6 border border-gray-800 rounded-xl hover:border-gray-500 transition ${
+          visible ? "show-anim" : "hidden-anim"
+        }`}>
+
+          <h3 className="text-xl font-semibold mb-3">
+            Notely
+          </h3>
+
+          <p className="text-gray-400 text-sm mb-4">
+            A notes storage platform with an AI-based helper for students, built on a FastAPI
+            backend with real-time communication. Currently under development.
+          </p>
+
+          <p className="text-gray-500 text-sm mb-6">
+            FastAPI • AI • In Development
+          </p>
+
+          <a
+            href="https://getnotely.netlify.app"
+            target="_blank"
+            className="inline-block px-4 py-2 border border-gray-600 rounded-lg text-sm hover:bg-white hover:text-black transition"
+          >
+            View Project →
+          </a>
+
+        </div>
+
+        {/* PROJECT 4 - Luna */}
+        <div className={`p-6 border border-gray-800 rounded-xl hover:border-gray-500 transition ${
+          visible ? "show-anim" : "hidden-anim"
+        }`}>
+
+          <h3 className="text-xl font-semibold mb-3">
+            Luna
+          </h3>
+
+          <p className="text-gray-400 text-sm mb-4">
+            A funny AI chatbot for Discord with a chaotic personality, built with discord.py
+            and Google Gemini. Talks, jokes around, and answers questions right in your server.
+          </p>
+
+          <p className="text-gray-500 text-sm mb-6">
+            Python • Discord.py • Gemini
+          </p>
+
+          <a
+            href="https://github.com/lazzy-amrit/luna"
+            target="_blank"
+            className="inline-block px-4 py-2 border border-gray-600 rounded-lg text-sm hover:bg-white hover:text-black transition"
+          >
+            View Project →
+          </a>
+
+        </div>
+
+        {/* PROJECT 5 - Urban Pulse */}
+        <div className={`p-6 border border-gray-800 rounded-xl hover:border-gray-500 transition ${
+          visible ? "show-anim" : "hidden-anim"
+        }`}>
+
+          <h3 className="text-xl font-semibold mb-3">
+            Urban Pulse
+          </h3>
+
+          <p className="text-gray-400 text-sm mb-4">
+            A smart infrastructure detector that uses sensors to flag problem areas in a city
+            for future repair. Working, but still under development and not yet shared publicly.
+          </p>
+
+          <p className="text-gray-500 text-sm mb-6">
+            Python • In Development
+          </p>
+
+          <a
+            href="https://github.com/lazzy-amrit/Urban-Pulse"
+            target="_blank"
+            className="inline-block px-4 py-2 border border-gray-600 rounded-lg text-sm hover:bg-white hover:text-black transition"
+          >
+            View Project →
           </a>
 
         </div>
