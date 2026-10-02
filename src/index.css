@@ -53,3 +53,20 @@ body {
 html {
   scroll-behavior: smooth;
 }
+/* Anchor links should not hide under the fixed navbar */
+section[id] {
+  scroll-margin-top: 3.5rem;
+}
+
+/* Visible keyboard focus */
+a:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 3px;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .hidden-anim { opacity: 1; transform: none; }
+  .show-anim { transition: none; }
+}
