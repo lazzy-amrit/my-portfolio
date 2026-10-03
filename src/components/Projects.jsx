@@ -19,8 +19,9 @@ export default function Projects() {
             key={p.name}
             className={`p-6 border border-gray-800 rounded-xl hover:border-gray-500 transition flex flex-col ${anim}`}
           >
-            <h3 className="text-xl font-semibold mb-3">{p.name}</h3>
-            <p className="text-gray-400 text-sm mb-4">{p.description}</p>
+            <h3 className="text-xl font-semibold mb-1">{p.name}</h3>
+            {p.role && <p className="text-gray-300 text-sm mb-3">{p.role}</p>}
+            <p className={`text-gray-400 text-sm mb-4 ${p.role ? "" : "mt-2"}`}>{p.description}</p>
             <p className="text-gray-500 text-sm mb-6">{p.tags}</p>
 
             <div className="mt-auto">

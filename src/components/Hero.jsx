@@ -1,4 +1,5 @@
 import useInView from "../hooks/useInView";
+import { aliases } from "../data/content";
 
 export default function Hero() {
   const [ref, visible] = useInView();
@@ -27,7 +28,10 @@ export default function Hero() {
           Full Stack Developer
         </p>
         <p className={`mt-1 text-gray-500 ${anim}`}>
-          FastAPI • React • Docker • Bots
+          FastAPI • React • Docker • Linux • Bots
+        </p>
+        <p className={`mt-1 text-gray-600 text-sm ${anim}`}>
+          Also known as {aliases.join(" · ")}
         </p>
 
         <div className={`mt-8 flex gap-4 justify-center md:justify-start ${anim}`}>

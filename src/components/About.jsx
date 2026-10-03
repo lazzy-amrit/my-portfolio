@@ -14,9 +14,11 @@ export default function About() {
 
       <div className={`mb-20 max-w-3xl ${anim}`}>
         <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-          I am a full stack developer from Punjab, India. I build fast backends in Python,
-          web apps in React, and the bots and tools that sit around them. I take a project
-          from idea to a deployed, running product.
+          I am Amrit Vex, also known online as Luffy and Lazzy Luffy, a full stack and Linux
+          developer from Punjab, India. I have 5 years of experience building fast backends
+          in Python, web apps in React, and the bots and tools that sit around them, and I
+          have worked with companies. I take a project from idea to a deployed, running
+          product.
         </p>
       </div>
 
@@ -25,9 +27,10 @@ export default function About() {
           <h3 className="text-xl font-semibold mb-4 text-gray-400">What I do</h3>
           <p className="text-gray-300 leading-relaxed">
             I design APIs with FastAPI, build interfaces with React and Tailwind, and ship
-            everything in Docker on Linux. I also make Discord bots, AI chatbots and small
-            plugins, and I lead development on community projects such as Minecraft server
-            infrastructure and a coding community of 2,000+ members.
+            everything in Docker on Linux. I am the Linux developer of Flint Launcher, I
+            have worked as staff and as a developer at Sudharshan Cloud and on Krish MC, and
+            I run a coding community of 2,000+ members. I also make Discord bots, AI
+            chatbots and small plugins.
           </p>
         </div>
 
@@ -49,6 +52,11 @@ export default function About() {
               <span className="text-gray-500">Availability —</span>
               <br />
               Open to freelance projects
+            </p>
+            <p>
+              <span className="text-gray-500">Also known as —</span>
+              <br />
+              Luffy, Lazzy Luffy, lazzy-amrit
             </p>
             <p>
               <span className="text-gray-500">Location —</span>

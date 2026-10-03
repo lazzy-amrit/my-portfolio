@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import ScrollHint from "./components/ScrollHint";
 import About from "./components/About";
 import Stack from "./components/Stack";
+import Experience from "./components/Experience";
 import Services from "./components/Services";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
@@ -16,6 +17,7 @@ function App() {
         <ScrollHint />
         <About />
         <Stack />
+        <Experience />
         <Services />
         <Projects />
         <Contact />

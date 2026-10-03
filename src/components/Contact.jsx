@@ -1,4 +1,5 @@
 import useInView from "../hooks/useInView";
+import { minecraftServer } from "../data/content";
 
 export default function Contact() {
   const [ref, visible] = useInView();
@@ -43,15 +44,13 @@ export default function Contact() {
           </p>
 
           <p>
-            <span className="text-gray-500">Minecraft server —</span>
+            <span className="text-gray-500">
+              {minecraftServer.name} ({minecraftServer.edition}) —
+            </span>
             <br />
-            quietbyte.mcsh.io
-          </p>
-
-          <p>
-            <span className="text-gray-500">One Block server —</span>
+            {minecraftServer.address}
             <br />
-            mc.amritvex.site
+            <span className="text-gray-500 text-base">Port {minecraftServer.port} (default)</span>
           </p>
         </div>
       </div>
