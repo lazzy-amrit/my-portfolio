@@ -41,7 +41,7 @@ export const experience = [
   {
     title: "Staff and developer, Sudharshan Cloud",
     text: "Worked with the Sudharshan Cloud team as staff and as a developer.",
-    link: null,
+    link: "https://www.sudarshancloud.com/",
   },
   {
     title: "Developer, Krish MC",
@@ -97,7 +97,7 @@ export const projects = [
     description:
       "A private file-sharing app for friends. Upload, store and share files through a FastAPI backend with S3-compatible object storage.",
     tags: "FastAPI • Peewee • S3 storage",
-    link: null, // TODO: add the Droply GitHub or live URL here
+    link: "https://droply.surge.sh", // TODO: add the Droply GitHub or live URL here
   },
   {
     name: "Luna",
